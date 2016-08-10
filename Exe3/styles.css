@@ -1,0 +1,32 @@
+	table, th,  td{
+				border : 1px solid black;
+				border-collapse : collapse;
+				
+	} 
+				
+	.tituloDoCarpadio{
+			 background-color : black;
+			 color  :red;
+			 border : 1px solid grey;
+			 padding : 10px;
+			 margin : 30px;
+			 font-size : 150%;
+	}
+			 
+	.tituloDoPrato{
+	 background-color : black;
+	 color: white;
+	 border : 1px solid grey;
+	 padding : 10px;
+	 margin : 30px;
+	 }
+	 
+	div.pratoPrincipal{
+	background-color : #f1f1c1;
+	padding : 20px;
+	}
+	
+	div.pratoSobremesa{
+	background-color : #a1f1a2;
+	padding : 20px;
+	}

@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Cardapio</title>
 	<meta charset="utf-8">
+	<style>
+ 	table, th,  td{
+				border : 1px solid black;
+				border-collapse : collapse;
+				
+	} 
+				
+	.tituloDoCarpadio{
+			 background-color : black;
+			 color  :red;
+			 border : 1px solid grey;
+			 padding : 10px;
+			 margin : 30px;
+			 font-size : 150%;
+	}
+			 
+	.tituloDoPrato{
+	 background-color : black;
+	 color: white;
+	 border : 1px solid grey;
+	 padding : 10px;
+	 margin : 30px;
+	 }
+	 
+	div.pratoPrincipal{
+	background-color : #f1f1c1;
+	padding : 20px;
+	}
+	
+	div.pratoSobremesa{
+	background-color : #a1f1a2;
+	padding : 20px;
+	}
+
+	</style>
 </head>
 <body>
-<h1>Cardápio</h1>
-<h3>Prato Principal</h3>
-<br>
-<img src="molho-pesto.jpg" alt="Molho Pesto" width="140" height="120">
+
+<h1 class="tituloDoCarpadio" >Cardápio</h1>
+
+<div class="pratoPrincipal" >
+<h3 class="tituloDoPrato">Prato Principal</h3>
+<table>	
+<tr> <td>
+<img src="molho-pesto.jpg" alt="Molho Pesto" width="140" height="120" style="float:left;">
 <h2>Molho Pesto</h2>
+</td></tr>
+
+<tr>
+<td>
 <h3>Ingredientes</h3>
 <ul>
 	<li>50 gramas de manjericão fresco (folhas apenas) </li>
 	<li>2 dentes de alho</li>
-	<li>100 ml de azeite extra virgem de oliva 
-</li>
-<li>6 colheres de sopa de queijo parmesão ralado (cerca de 70 gramas) 
-</li>
-<li>2 colheres de sopa de queijo pecorino ralado (cerca de 30 gramas). Importante: se você não encontrar o queijo pecorino, você pode substituí-lo com mais queijo parmesão
-</li>
-<li>1 colher de sopa de pinoli (cerca de 30 gramas) 
-</li>
+	<li>100 ml de azeite extra virgem de oliva </li>
+<li>6 colheres de sopa de queijo parmesão ralado (cerca de 70 gramas) </li>
+<li>2 colheres de sopa de queijo pecorino ralado (cerca de 30 gramas). Importante: se você não encontrar o queijo pecorino, você pode substituí-lo com mais queijo parmesão</li>
+<li>1 colher de sopa de pinoli (cerca de 30 gramas) </li>
 </ul>
+</td>
+</tr>
 
+<tr>
+ <td>
 <h3>Modo de Preparo</h3>
 <ol>
 	<li>A receita original pede o uso de um socador para bater as folhas de manjericão, mas para facilitar as coisas te passamos a receita utilizando um liquidificador. </li>
@@ -32,16 +75,54 @@
 	</li>
 	<li>Coloque todos os ingredientes, menos o queijo, no liquidificador. 
 	</li>
-	<li>Bata tudo lentamente até que a mistura vire um composto líquido e cremoso. 
-</li>
-<li>Neste ponto, adicione o queijo e mexa bem até que tudo fique bem misturado. 
-</li>
-<li>
-Mantenha o molho pesto na geladeira por durante 2-3 dias num recipiente hermético, tendo o cuidado de cobri-lo com uma camada de azeite extra virgem de oliva.
-</li>
+	<li>Bata tudo lentamente até que a mistura vire um composto líquido e cremoso. </li>
+    <li>Neste ponto, adicione o queijo e mexa bem até que tudo fique bem misturado. </li>
+    <li>Mantenha o molho pesto na geladeira por durante 2-3 dias num recipiente hermético, tendo o cuidado de cobri-lo com uma camada de azeite extra virgem de oliva.</li>
 </ol>
+</td>
+</tr>
+</table>
+</div>
 
+<div class="pratoSobremesa">
+<h3 class="tituloDoPrato" >Sobremesa</h3>
+<table>
+	<tr>
+		<td>
+		<img src="pudim.jpg" alt="Pudim" width="140" height="120" style="float:left;">
+		<h2 >Pudim</h2>
+		</td>
+	</tr>
+	<tr>
+	<td>
+	<h3>Ingredientes</h3>
+	<ul>
+		<li>(395g) Caixinha de leite condensado</li>
+		<li>03 (720ml) Xícaras (chá) de leite longa vida integral Piracanjuba</li>
+		<li>03 (150g) Ovos</li>
+		<li>6 colheres de sopa de queijo parmesão ralado (cerca de 70 gramas)</li>
+		<li>01 (180g) Xícara (chá) de açúcar</li>
+	</ul>	
+	</td>		
+	</tr>
+	<tr>
+		<td>
+			<h3>Modo de Preparo</h3>
+			<ol>
+			<li>Pré-aqueça o forno em temperatura média (180ºC).</li>
+			<li>Coloque uma peneira sobre o copo do liquidificador e passe os ovos. Adicione o leite condensado e o
+			leite. Bata por 5 minutos, ou até ficar homogêneo. Reserve.</li>
+			<li>Coloque o açúcar em uma fôrma com furo no meio (capacidade para 2 e 1/2 litros), leve ao fogo por 6
+			minutos ou até o açúcar derreter e formar um caramelo. Retire do fogo, espalhe o caramelo por toda a
+			fôrma e despeje a mistura batida. </li>
+			<li>Coloque a fôrma em uma assadeira e acrescente água (para fazer o banho-maria). Leve ao forno em
+			banho-maria por 1 hora e 40 minutos ou até o pudim ficar firme. Retire do forno.</li>
+			<li>Espere amornar e cubra a fôrma com filme plástico. Leve o pudim à geladeira por 3 horas antes de servir.</li>
+			</ol>
+		</td>
+	</tr>
+</table>
+</div>
 
-<img src="pudim.jpg" alt="Pudim" width="140" height="120">
 </body>
 </html>
