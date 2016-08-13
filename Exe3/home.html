@@ -1,29 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Home</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-	<header>
-		<h3>Cardápio</h3>
-	</header>
-	<form>
-		<label> Nome da Receita </label><input type="text">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+	<div >
+		<header>
+		<h3>Cardápio</h3>		
+		<div class="dropdown">
+			<button class="dropbtn">Menu de Ações</button>
+			<div class="dropdown-content">
+				<a href="home.html">Cadastro Receitas</a>
+				<a href="#">Prato Principal</a>
+				<a href="#">Sobremesa</a>
+			</div>
+		</div>
+		</header>
+	
+		<form>
+			<label for="nomeDaReceita">Nome da Receita</label>
+			<input type="text" id="nomeDaReceita">
+			<br>
+			<label>Tipo da Receita </label> 
+			<select>
+			<option value="Prato principal">Prato principal</option>	
+			</select>
+		<div class="container" >
+		Ingredientes
 		<br>
-		<label>Tipo da Receita </label> 
-		<select>
-		<option value="Prato principal">Prato principal</option>	
-		</select>
-	</form>	
-	<div class="container">
-	<h4>Ingredientes</h4>
-	
+		Item<input type="text" >
+		<br>
+		Quantidade <input type="number">
+		Medida<input type="text">
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Qtd</th>
+				<th>Kg/l</th>
+			</tr>
+			<tr>
+				<td>Massa Penne</td>
+				<td>um</td>
+				<td>Kg</td>
+			</tr>
+			<tr>
+				<td>Sal</td>
+				<td>30</td>
+				<td>g</td>
+			</tr>
+			<tr>
+				<td>Queijo Ralado</td>
+				<td>500</td>
+				<td>g</td>
+			</tr>
+		</table>
+		</div>
+		<div class="container">
+			Descrição da Receita
+			<textarea  cols="30" rows="10" style="display:block;" ></textarea>
+		</div>
+		<div style="padding:10px;">
+		<button>Salvar</button>
+		<button>Cancelar</button>
+		</div>
+		</form>			
+		<footer>
+			<h3>Copyright &copy;AGES Team 2016</h3>
+		</footer>
 	</div>
-	
-	<footer>
-		<h3>Copyright &copy;AGES Team 2016</h3>
-	</footer>
-</body>
-</html>
+	</body>
+	</html>

@@ -10,13 +10,13 @@ table, th, td{
 
 }
 
-header, footer{
-	padding : 10px;
-	color : white
-	font-size : 12px;
-	background-color : #aaa;
-	clear : left;
-	text-align : center;
+header, footer { 
+padding : 10px;
+color : white;
+font-size : 12px;
+background-color : #aaa;
+clear : left;
+text-align : center;
 }
 
 input{
@@ -25,11 +25,13 @@ input{
 }
 
 div.container{
+	padding: 5px;
 	width : 100%;
 	border : 1px solid gray;	
 }
 
-.menu{background-color : black;
+.menu{
+	background-color : black;
 	color : red;
 	border : 1px solid grey;
 	padding : 10px;
@@ -57,38 +59,39 @@ div.sobremesa{
 
 /*Estilos para o menu de navegação*/
 .dropbtn{
-	background-color = #4CAF50;
-	color = white;
-	padding = 10px;
-	font-size = 10px;
-	border = none;
-	cursor = pointer;	
+	background-color : #4CAF50;
+	color : white;
+	padding : 10px;
+	font-size : 10px;
+	border : none;
+	cursor : pointer;	
 }
  
 .dropdown{
-	position = relative;
- 	display = inline-block;	
+	float: right;
+	position : relative;
+ 	display : inline-block;	
 }
  
 .dropdown-content{
- display = none;
- position = absolute;
- right = 0;
- background-color = #f9f9f9;
- min-width = 160px;
- box-shadow = 0px 8px 16px 0px rgba(0,0,0,0.2);	
+ display : none;
+ position : absolute;
+ right : 0;
+ background-color : #f9f9f9;
+ min-width : 160px;
+ box-shadow : 0px 8px 16px 0px rgba(0,0,0,0.2);	
 }
  
 .dropdown-content a{
- color = black;
- padding = 12px 16px;
- text-decoration = none;
- display = block;
+ color : black;
+ padding : 12px 16px;
+ text-decoration : none;
+ display : block;
 
 }
  .dropdown-content a:hover{
- 	background-color = #f1f1f1
+ 	background-color : #f1f1f1
  }
  .dropdown:hover .dropdown-content{
- 	display = block;
+ 	display : block;
  }
